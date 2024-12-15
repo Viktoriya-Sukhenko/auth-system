@@ -1,0 +1,51 @@
+.user-panel {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2e2e3e;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .user-panel h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .user-panel h2 {
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .user-panel input {
+    padding: 12px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b3b4f;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+ .change-password-button {
+    align-self: center;
+    width: 95%;
+    padding: 10px;
+    background-color: #ffc100;
+    border: none;
+    color: #1e1e2f;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+ .change-password-button:hover {
+    background-color: #ff8200;
+  }
+  

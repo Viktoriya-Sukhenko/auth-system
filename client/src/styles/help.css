@@ -1,0 +1,18 @@
+.help-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; 
+    padding: 10px 15px;
+    background-color: #FFC100;
+    color: #1e1e2f;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.help-button:hover {
+    background-color: #FF8200;
+}

@@ -1,0 +1,128 @@
+.admin-panel {
+  display: flex;
+  gap: 60px;
+  padding: 20px;
+}
+
+.left-column {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.change-password,
+.add-user,
+.logout-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.change-password-button {
+  align-self: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffc100;
+  border: none;
+  color: #1e1e2f;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.change-password-button:hover {
+  background-color: #ff8200;
+}
+
+.add-user-button {
+  align-self: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-user-button:hover {
+  background-color: #218838;
+}
+
+.right-column {
+  width: 70%;
+  overflow-y: auto;
+  background: #2e2e3e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #444;
+}
+
+table th {
+  background-color: #3b3b4f;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #2e2e3e;
+}
+
+.td-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 23px;
+}
+.action-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-user-button,
+.toggle-restrictions-button {
+  width: 150px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.block-user-button {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.block-user-button:hover {
+  background-color: #e67e00;
+}
+
+.toggle-restrictions-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.toggle-restrictions-button:hover {
+  background-color: #3e8e41;
+}

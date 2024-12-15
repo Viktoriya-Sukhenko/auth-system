@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e2f;
+  color: #fff;
+}
+
+button {
+  padding: 12px;
+  background-color: #ffc100;
+  font-weight: 900;
+  color: #1e1e2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff8200;
+}
+
+button.cancel {
+  background-color: #ff4d4d;
+}
+
+button.cancel:hover {
+  background-color: #cc0000;
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toast-notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #28a745;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.toast-notification.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.toast-notification.toast-error {
+  background-color: #ff4d4d;
+}
+
+.logout-button {
+  position: fixed;
+  bottom: 80px;
+  left: 20px;
+  padding: 10px 15px;
+  width: 100px;
+  background-color: #ff4d4d;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #cc0000;
+}
